@@ -28,6 +28,10 @@ dependencies {
 
 	// MySQL Driver
 	runtimeOnly("com.mysql:mysql-connector-j")
+
+	// lombok
+	compileOnly("org.projectlombok:lombok")
+	annotationProcessor("org.projectlombok:lombok")
 }
 
 tasks.withType<Test> {
