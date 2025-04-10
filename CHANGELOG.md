@@ -1,6 +1,11 @@
 ## CHANGE LOG
 
-### 2-1) JPA 를 활용한 기본 API 구현  
+
+
+### 2-2) Swagger 연동 & 기본 설정
+✅ Swagger 연동 & 기본 설정
+
+### 2-1) JPA 를 활용한 기본 API 구현_1  
 ✅ lombok & simple JPA 구현  
  
 
