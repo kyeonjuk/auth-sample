@@ -38,6 +38,10 @@ dependencies {
 
 	// thymeleaf
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+
+	// webflux - 비동기 논블로킹 웹 프레임워크
+	implementation("org.springframework.boot:spring-boot-starter-webflux:3.3.3")
+
 }
 
 tasks.withType<Test> {

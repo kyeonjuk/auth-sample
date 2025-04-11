@@ -1,6 +1,20 @@
 ## CHANGE LOG
 
 
+
+---
+
+### 4-2) Kakao Social Login 2
+✅ 카카오 소셜 로그인 지원
+- 코드로 카카오에 토큰 요청 &nbsp; `4-2 진행`
+  - ResponseDTO 생성 
+  - RequestDTO 생성
+- 받은 토큰으로 사용자 정보 확인  &nbsp; `4-2 진행`  
+  - 카카오 소셜 로그인 정보 확인  &nbsp; `4-2 진행`
+  - 임직원 카카오 닉네임 정보 -> DB 등록  &nbsp; `4-3 진행`
+  - 확인된 정보가 등록된 유저의 정보인지 판단 (보통 이메일로 비교) &nbsp; `4-3 진행`
+
+
 ### 4-1) Kakao Social Login 1
 ✅ 회원 등록  
 ✅ thymeleaf 라이브러리 추가   
