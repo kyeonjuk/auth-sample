@@ -11,12 +11,14 @@ public class PostEmployeeRequestDto {
     private String firstName;
     private String lastName;
     private Long departmentId;
+    private String kakaoNickName;
 
     public Employee toEmployee() {
         return Employee.builder()
             .firstName(firstName)
             .lastName(lastName)
             .departmentId(departmentId)
+            .kakaoNickName(kakaoNickName)
             .build();
     }
 }

@@ -9,12 +9,16 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import java.util.Set;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Getter
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Employee {
 
     @Id
@@ -30,6 +34,9 @@ public class Employee {
 
     @Schema(example = "123", description = "부서 ID")
     private Long departmentId;
+
+    @Schema(example = "test", description = "닉네임")
+    private String kakaoNickName;
 
     @ManyToMany
     @JoinTable(     // employee_role_mapping 테이블의 id 컬럼을 현재 테이블의 employee_id 컬럼에 매핑
