@@ -36,5 +36,5 @@ out/
 .vscode/
 
 ### custom ###
-/src/main/resources/application.yml
+src/main/resources/application.yml
 .env
