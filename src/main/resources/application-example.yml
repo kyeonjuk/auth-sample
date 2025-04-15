@@ -18,3 +18,4 @@ kakao:
   client-id: MY_KAKAO_CLIENT_ID
   redirect-uri: http://localhost:8080/kakao/callback
 
+secret-key: MY_SECRET_KEY

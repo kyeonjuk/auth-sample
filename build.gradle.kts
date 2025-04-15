@@ -42,6 +42,14 @@ dependencies {
 	// webflux - 비동기 논블로킹 웹 프레임워크
 	implementation("org.springframework.boot:spring-boot-starter-webflux:3.3.3")
 
+	// jwt
+	implementation("io.jsonwebtoken:jjwt-api:0.12.6")
+	runtimeOnly("io.jsonwebtoken:jjwt-impl:0.12.6")
+	runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.12.6")
+
+	// ✅ JUnit 5 (Jupiter)
+	testImplementation("org.junit.jupiter:junit-jupiter:5.11.0")
+
 }
 
 tasks.withType<Test> {
